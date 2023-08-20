@@ -1,5 +1,5 @@
 import React from "react";
-import AiImageGenerator from "@/assets/images/ai-image-generator.png";
+import AiImageGeneratorImage from "@/assets/images/AI-image-generator.png";
 import AnimePediaImage from "@/assets/images/AnimePedia.png";
 import YelpCampImage from "@/assets/images/Yelp-Camp.png";
 import { CgWorkAlt } from "react-icons/cg";
@@ -62,7 +62,7 @@ export const ProjectsData = [
     name: "AI Image Generator",
     description:
       "A FullStack web application that generates images on specific prompts using OpenAI's Dall-E API.",
-    image: AiImageGenerator,
+    image: AiImageGeneratorImage,
     tags: [
       "React",
       "Node.js",

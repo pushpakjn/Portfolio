@@ -8,7 +8,7 @@ import DarkModeToggler from "@/components/DarkModeToggler";
 import DarkModeContext from "@/context/DarkModeContext";
 import ActiveSectionContext from "@/context/ActiveSectionContext";
 import { Toaster } from "react-hot-toast";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Ankush Bhagat | Portfolio",
