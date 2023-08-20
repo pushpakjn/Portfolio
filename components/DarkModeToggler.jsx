@@ -8,7 +8,7 @@ const DarkModeToggler = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="fixed bottom-0 md:top-0 right-0 p-4">
+    <div className="fixed bottom-0 md:top-0 right-0 p-4 z-50">
       <button
         type="button"
         className="flex justify-center align-center rounded-lg p-2 transition-all"
