@@ -1,7 +1,7 @@
 import React from "react";
-import AiImageGenerator from "../assets/images/ai-image-generator.png";
-import AnimePediaImage from "../assets/images/AnimePedia.png";
-import YelpCampImage from "../assets/images/Yelp-Camp.png";
+import AiImageGenerator from "@/assets/images/ai-image-generator.png";
+import AnimePediaImage from "@/assets/images/AnimePedia.png";
+import YelpCampImage from "@/assets/images/Yelp-Camp.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { Html } from "next/document";
