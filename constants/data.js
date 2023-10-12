@@ -1,6 +1,6 @@
 import React from "react";
 import AiImageGeneratorImage from "@/assets/images/AI-image-generator.png";
-import AnimePediaImage from "@/assets/images/AnimePedia.png";
+import CPHints from "@/assets/images/CP-Hints.png";
 import YelpCampImage from "@/assets/images/Yelp-Camp.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -35,6 +35,23 @@ export const links = [
 
 export const ProjectsData = [
   {
+    name: "CP Hints",
+    description:
+      "The project aims to create an online platform where users can access and contribute coding hints for various platforms.",
+    image: CPHints,
+    tags: [
+      "React",
+      "NodeJs",
+      "PostgresSQL",
+      "Redis",
+      "Express",
+      "Bootstrap",
+      "Framer motion",
+      "JWT",
+    ],
+    link: "https://www.cphints.me/",
+  },
+  {
     name: "YelpCamp",
     description:
       "A full-stack web application focused on creating an immersive and user-friendly experience for camping enthusiasts.",
@@ -49,14 +66,6 @@ export const ProjectsData = [
       "Mapbox",
     ],
     link: "https://fine-tan-pronghorn-suit.cyclic.app/",
-  },
-  {
-    name: "AnimePedia",
-    description:
-      "A FrontEnd web application that showcases the details and updates related anime and manga.",
-    image: AnimePediaImage,
-    tags: ["Html", "CSS", "JavaScript", "JQuery"],
-    link: "https://ab-ankush.github.io/AnimePedia/",
   },
   {
     name: "AI Image Generator",
@@ -80,6 +89,7 @@ export const SkillsData = [
   "CSS",
   "JavaScript",
   "React",
+  "Python",
   "Next.js",
   "Tailwind CSS",
   "Framer Motion",
@@ -95,7 +105,6 @@ export const SkillsData = [
   "GitHub",
   "JWT",
   "Cloudinary",
-  "Mapbox",
 ];
 
 export const experiencesData = [
