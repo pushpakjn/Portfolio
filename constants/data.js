@@ -42,7 +42,7 @@ export const ProjectsData = [
     tags: [
       "React",
       "NodeJs",
-      "PostgresSQL",
+      "PostgreSQL",
       "Redis",
       "Express",
       "Bootstrap",
