@@ -11,7 +11,7 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "Pushpak Jain  | Portfolio",
+  title: "Pushpak Jain | Portfolio",
   description:
     "Pushpak Jain is a software engineer based in India and this is his portfolio.",
 };
