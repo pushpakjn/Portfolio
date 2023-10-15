@@ -4,7 +4,6 @@ import CPhints from "@/assets/images/CPhints.png";
 import ZeroW from "@/assets/images/ZeroW.png";
 import FashonNovel from "@/assets/images/FashionNovel.png";
 import CPHints from "@/assets/images/CP-Hints.png";
-import YelpCampImage from "@/assets/images/Yelp-Camp.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { Html } from "next/document";
