@@ -11,9 +11,9 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "Ankush Bhagat | Portfolio",
+  title: "Pushpak Jain | Portfolio",
   description:
-    "Ankush Bhagat is a software engineer based in India and this is his portfolio.",
+    "Pushpak Jain is a software engineer based in India and this is his portfolio.",
 };
 
 export default function RootLayout({ children }) {
