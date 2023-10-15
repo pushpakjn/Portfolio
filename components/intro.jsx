@@ -25,7 +25,7 @@ const Intro = () => {
         // transition={{ delay: 0.2 }}
       >
         Hello, I'm{" "}
-        <span className="font-bold text-blue-500">Ankush Bhagat</span>
+        <span className="font-bold text-blue-500">Pushpak Jain</span>
         <br />
         <span className="text-xl sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
           I'm a{" "}
@@ -54,7 +54,7 @@ const Intro = () => {
           Contact Me
         </Link>
         <a
-          href="https://drive.google.com/file/d/1nNp8HZr7FU8fIsHdcJXMDJ3AjUPOil89/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rxKAk1fnWyHy0Y5ZVWXCiFeCfYljpoN_/view?usp=sharing"
           target="_blank"
           className="bg-white text-slate-900 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-50 hover:scale-105 transition cursor-pointer"
         >
@@ -62,7 +62,7 @@ const Intro = () => {
         </a>
         <a
           href="
-          https://www.linkedin.com/in/ab-ankush/
+          https://www.linkedin.com/in/pushpak-jain/
           "
           target="_blank"
           className="bg-gray-900 text-white px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
@@ -71,7 +71,7 @@ const Intro = () => {
         </a>
         <a
           href="
-        https://github.com/ab-ankush/
+        https://github.com/pushpakjn/
         "
           target="_blank"
           className="bg-gray-900 text-white px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"

@@ -1,7 +1,8 @@
 import React from "react";
 import AiImageGeneratorImage from "@/assets/images/AI-image-generator.png";
-import AnimePediaImage from "@/assets/images/AnimePedia.png";
-import YelpCampImage from "@/assets/images/Yelp-Camp.png";
+import CPhints from "@/assets/images/CPhints.png";
+import ZeroW from "@/assets/images/ZeroW.png";
+import FashonNovel from "@/assets/images/FashionNovel.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { Html } from "next/document";
@@ -23,10 +24,10 @@ export const links = [
     name: "Skills",
     href: "#Skills",
   },
-  {
-    name: "Experience",
-    href: "#Experience",
-  },
+  // {
+  //   name: "Experience",
+  //   href: "#Experience",
+  // },
   {
     name: "Contact",
     href: "#Contact",
@@ -35,44 +36,60 @@ export const links = [
 
 export const ProjectsData = [
   {
-    name: "YelpCamp",
+    name: "CP Hints",
     description:
-      "A full-stack web application focused on creating an immersive and user-friendly experience for camping enthusiasts.",
-    image: YelpCampImage,
+      "An online platform where users can access and contribute coding hints for various platforms like Codeforces , Leetcode , and many others.",
+    image: CPhints,
     tags: [
       "Html",
       "CSS",
       "JavaScript",
-      "Node.js",
-      "MongoDB",
-      "Cloudinary",
-      "Mapbox",
-    ],
-    link: "https://fine-tan-pronghorn-suit.cyclic.app/",
-  },
-  {
-    name: "AnimePedia",
-    description:
-      "A FrontEnd web application that showcases the details and updates related anime and manga.",
-    image: AnimePediaImage,
-    tags: ["Html", "CSS", "JavaScript", "JQuery"],
-    link: "https://ab-ankush.github.io/AnimePedia/",
-  },
-  {
-    name: "AI Image Generator",
-    description:
-      "A FullStack web application that generates images on specific prompts using OpenAI's Dall-E API.",
-    image: AiImageGeneratorImage,
-    tags: [
       "React",
       "Node.js",
-      "Tailwind CSS",
-      "OpenAI",
       "MongoDB",
-      "Cloudinary",
+      "Postgresql",
+      "Sendgrid API",
     ],
-    link: "https://ai-image-generator-pearl.vercel.app/",
+    link: "https://www.cphints.me/",
   },
+  {
+    name: "ZeroW",
+    description:
+      "A FullStack web application that connects excess food donors with NGOs or volunteers to reduce food wastage.",
+    image: ZeroW,
+    tags: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Twilio API",
+    ],
+    link: "https://zerow1.vercel.app/",
+  },
+  {
+    name: "FashionNovel",
+    description:
+      "A Fullstack E-commerce web application that allows users to buy products using Paypal payment gateway and also allows admin to manage the website.",
+    image: FashonNovel,
+    tags: ["Html", "CSS", "JavaScript", "React","Redux", "Node.js", "MongoDB", "Paypal API"],
+    link: "https://fashionnovel.vercel.app/",
+  },
+  // {
+  //   name: "AI Image Generator",
+  //   description:
+  //     "A FullStack web application that generates images on specific prompts using OpenAI's Dall-E API.",
+  //   image: AiImageGeneratorImage,
+  //   tags: [
+  //     "React",
+  //     "Node.js",
+  //     "Tailwind CSS",
+  //     "OpenAI",
+  //     "MongoDB",
+  //     "Cloudinary",
+  //   ],
+  //   link: "https://ai-image-generator-pearl.vercel.app/",
+  // }
 ];
 
 export const SkillsData = [
@@ -80,39 +97,23 @@ export const SkillsData = [
   "CSS",
   "JavaScript",
   "React",
-  "Next.js",
+  "Redux",
   "Tailwind CSS",
-  "Framer Motion",
   "MongoDB",
+  "PostgreSQL",
   "Node.js",
   "Express.js",
   "REST API",
+  "Postman",
   "bootstrap",
   "Material UI",
-  "PostgreSQL",
   "VS Code",
   "Git",
   "GitHub",
   "JWT",
-  "Cloudinary",
-  "Mapbox",
-];
+  "C++"
+  ];
 
 export const experiencesData = [
-  {
-    title: "Full-Stack Developer Intern",
-    location: "Suvidha Foundation",
-    description:
-      "Led dynamic full-stack web development creating a platform to create and explore fundraisers for noble causes.",
-    icon: React.createElement(FaReact),
-    date: "June 2022 - July 2022",
-  },
-  {
-    title: "Full-Stack Developer Intern",
-    location: "Murtiwala",
-    description:
-      "Contributed to a rewarding Internship, playing a key role in developing a website to showcase and sell idols.",
-    icon: React.createElement(CgWorkAlt),
-    date: "July 2022 - August 2022",
-  },
+ 
 ];
