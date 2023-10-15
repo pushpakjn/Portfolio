@@ -1,13 +1,10 @@
 import React from "react";
 import AiImageGeneratorImage from "@/assets/images/AI-image-generator.png";
-<<<<<<< HEAD
 import CPhints from "@/assets/images/CPhints.png";
 import ZeroW from "@/assets/images/ZeroW.png";
 import FashonNovel from "@/assets/images/FashionNovel.png";
-=======
 import CPHints from "@/assets/images/CP-Hints.png";
 import YelpCampImage from "@/assets/images/Yelp-Camp.png";
->>>>>>> 044f1dc8c80fdc8c6c201d1f177689696375c1c3
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { Html } from "next/document";
@@ -42,54 +39,18 @@ export const links = [
 export const ProjectsData = [
   {
     name: "CP Hints",
-<<<<<<< HEAD
-=======
     description:
       "The project aims to create an online platform where users can access and contribute coding hints for various platforms.",
     image: CPHints,
     tags: [
+      "HTML/CSS",
+      "JavaScript",
       "React",
       "NodeJs",
+      "Express",
       "PostgreSQL",
       "Redis",
-      "Express",
-      "Bootstrap",
-      "Framer motion",
-      "JWT",
-    ],
-    link: "https://www.cphints.me/",
-  },
-  {
-    name: "YelpCamp",
->>>>>>> 044f1dc8c80fdc8c6c201d1f177689696375c1c3
-    description:
-      "An online platform where users can access and contribute coding hints for various platforms like Codeforces , Leetcode , and many others.",
-    image: CPhints,
-    tags: [
-      "Html",
-      "CSS",
-      "JavaScript",
-<<<<<<< HEAD
-=======
-      "Node.js",
-      "MongoDB",
-      "Cloudinary",
-      "Mapbox",
-    ],
-    link: "https://fine-tan-pronghorn-suit.cyclic.app/",
-  },
-  {
-    name: "AI Image Generator",
-    description:
-      "A FullStack web application that generates images on specific prompts using OpenAI's Dall-E API.",
-    image: AiImageGeneratorImage,
-    tags: [
->>>>>>> 044f1dc8c80fdc8c6c201d1f177689696375c1c3
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Postgresql",
-      "Sendgrid API",
+      "Sendgrid API"
     ],
     link: "https://www.cphints.me/",
   },
@@ -116,21 +77,6 @@ export const ProjectsData = [
     tags: ["Html", "CSS", "JavaScript", "React","Redux", "Node.js", "MongoDB", "Paypal API"],
     link: "https://fashionnovel.vercel.app/",
   },
-  // {
-  //   name: "AI Image Generator",
-  //   description:
-  //     "A FullStack web application that generates images on specific prompts using OpenAI's Dall-E API.",
-  //   image: AiImageGeneratorImage,
-  //   tags: [
-  //     "React",
-  //     "Node.js",
-  //     "Tailwind CSS",
-  //     "OpenAI",
-  //     "MongoDB",
-  //     "Cloudinary",
-  //   ],
-  //   link: "https://ai-image-generator-pearl.vercel.app/",
-  // }
 ];
 
 export const SkillsData = [
@@ -138,17 +84,12 @@ export const SkillsData = [
   "CSS",
   "JavaScript",
   "React",
-<<<<<<< HEAD
   "Redux",
-=======
-  "Python",
-  "Next.js",
->>>>>>> 044f1dc8c80fdc8c6c201d1f177689696375c1c3
-  "Tailwind CSS",
-  "MongoDB",
-  "PostgreSQL",
   "Node.js",
   "Express.js",
+  "MongoDB",
+  "PostgreSQL",
+  "Tailwind CSS",
   "REST API",
   "Postman",
   "bootstrap",
@@ -157,13 +98,8 @@ export const SkillsData = [
   "Git",
   "GitHub",
   "JWT",
-<<<<<<< HEAD
   "C++"
-  ];
-=======
-  "Cloudinary",
 ];
->>>>>>> 044f1dc8c80fdc8c6c201d1f177689696375c1c3
 
 export const experiencesData = [
  
