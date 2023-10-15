@@ -2,7 +2,8 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_CUCfS5Gy_LqFEgu2QQYnF6t4U8UEH7RrA');
 
 const sendEmail = async (FormData) => {
   const senderEmail = FormData.get("senderEmail");
