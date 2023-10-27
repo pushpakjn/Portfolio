@@ -32,8 +32,8 @@ const About = () => {
           About Me
         </h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-          I am currently pursuing B.Tech in Electronics and Communications
-          Engineering from Maharaja Agrasen Institute of Technology,
+          I am currently pursuing my Bachelor's degree at the Maharaja Agrasen
+          Institute of Technology,
           Delhi and will graduate in 2024. I enjoy tackling new challenges
           and continuously expanding my skillset.
           {/* I'm a Full-Stack web developer
