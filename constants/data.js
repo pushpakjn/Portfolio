@@ -96,6 +96,8 @@ export const SkillsData = [
   "VS Code",
   "Git",
   "GitHub",
+  "Figma",
+  "Web Designing",
   "JWT",
   "C++"
 ];
