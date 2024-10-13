@@ -69,13 +69,21 @@ export const ProjectsData = [
     link: "https://zerow1.vercel.app/",
   },
   {
-    name: "FashionNovel",
+    name: "Supash",
     description:
-      "A Fullstack E-commerce web application that allows users to buy products using Paypal payment gateway and also allows admin to manage the website.",
-    image: FashonNovel,
-    tags: ["Html", "CSS", "JavaScript", "React","Redux", "Node.js", "MongoDB", "Paypal API"],
-    link: "https://fashionnovel.vercel.app/",
+  "A Fullstack E-commerce web application that enables users to browse products, add/remove items to the cart, adjust quantities, and view total prices. Firebase manages inventory and user authentication, supporting both email/password and anonymous logins. Includes a mock checkout page for simulating purchases.",
+image: FashonNovel,
+    tags: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Firebase"],
+    link: "https://supash.vercel.app/",
   },
+  // {
+  //   name: "FashionNovel",
+  //   description:
+  //     "A Fullstack E-commerce web application that allows users to buy products using Paypal payment gateway and also allows admin to manage the website.",
+  //   image: FashonNovel,
+  //   tags: ["Html", "CSS", "JavaScript", "React","Redux", "Node.js", "MongoDB", "Paypal API"],
+  //   link: "https://fashionnovel.vercel.app/",
+  // },
 ];
 
 export const SkillsData = [
