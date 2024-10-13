@@ -79,27 +79,34 @@ export const ProjectsData = [
 ];
 
 export const SkillsData = [
-  "HTML",
-  "CSS",
+  "Java",
   "JavaScript",
   "React",
-  "Redux",
   "Node.js",
-  "Express.js",
+  "Spring Boot",
+  "HTML",
+  "CSS",
+  "SQL",
   "MongoDB",
   "PostgreSQL",
-  "Tailwind CSS",
-  "REST API",
-  "Postman",
-  "bootstrap",
-  "Material UI",
-  "VS Code",
+  "MySQL",
+  "Redis",
   "Git",
   "GitHub",
-  "Figma",
-  "Web Designing",
+  "VS Code",
+  "Postman",
+  "Vercel",
+  "Cyclic",
+  "Spring",
+  "Hibernate",
+  "RESTful API",
   "JWT",
-  "C++"
+  "Django",
+  "Python",
+  "C++",
+  "IntelliJ",
+  "Eclipse",
+  "JUnit"
 ];
 
 export const experiencesData = [
