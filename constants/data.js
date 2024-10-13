@@ -3,6 +3,7 @@ import AiImageGeneratorImage from "@/assets/images/AI-image-generator.png";
 import CPhints from "@/assets/images/CPhints.png";
 import ZeroW from "@/assets/images/ZeroW.png";
 import FashonNovel from "@/assets/images/FashionNovel.png";
+import Supash from "@/assets/images/supash-landing.png";
 import CPHints from "@/assets/images/CP-Hints.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -54,6 +55,14 @@ export const ProjectsData = [
     link: "https://www.cphints.me/",
   },
   {
+    name: "Supash",
+    description:
+  "A Fullstack E-commerce web application that enables users to browse products, add/remove items to the cart, adjust quantities, and view total prices. Firebase manages inventory and user authentication, supporting both email/password and anonymous logins. Includes a mock checkout page for simulating purchases.",
+image: Supash,
+    tags: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Firebase"],
+    link: "https://supash.vercel.app/",
+  },
+  {
     name: "ZeroW",
     description:
       "A FullStack web application that connects excess food donors with NGOs or volunteers to reduce food wastage.",
@@ -68,14 +77,7 @@ export const ProjectsData = [
     ],
     link: "https://zerow1.vercel.app/",
   },
-  {
-    name: "Supash",
-    description:
-  "A Fullstack E-commerce web application that enables users to browse products, add/remove items to the cart, adjust quantities, and view total prices. Firebase manages inventory and user authentication, supporting both email/password and anonymous logins. Includes a mock checkout page for simulating purchases.",
-image: FashonNovel,
-    tags: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Firebase"],
-    link: "https://supash.vercel.app/",
-  },
+  
   // {
   //   name: "FashionNovel",
   //   description:
