@@ -28,12 +28,13 @@ const Intro = () => {
         <span className="font-bold text-blue-500">Pushpak Jain</span>
         <br />
         <span className="text-xl sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
-          I'm a{" "}
+          As a passionate{" "}
           <span className="font-bold text-blue-400">Full Stack Developer</span>{" "}
-          based in India. I love to build things for the web. I specialize in
-          building websites and applications using <br />
-          <span className="font-bold text-blue-400">React</span> and{" "}
-          <span className="font-bold text-blue-400">Node.js</span>.
+          from India, I thrive on creating innovative web solutions that captivate users. Specializing in crafting dynamic applications with  <br />
+          <span className="font-bold text-blue-400">React</span> for seamless front-end experiences and{" "}
+          <span className="font-bold text-blue-400">Node.js</span>{" "} and 
+          <span className="font-bold text-blue-400">Spring Boot</span>{" "} 
+          for robust back-end architecture, I’m excited to bring ideas to life on the web!
         </span>
       </motion.h1>
 
@@ -54,7 +55,7 @@ const Intro = () => {
           Contact Me
         </Link>
         <a
-          href="https://drive.google.com/file/d/1UPioAWHLZVWpi8hRgLkPT3A-dBDr4AL2/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1sHT8McRZMwQnGBpEYZgdMT3FPl4SWpY6/view?usp=sharing"
           target="_blank"
           className="bg-white text-slate-900 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-50 hover:scale-105 transition cursor-pointer"
         >
