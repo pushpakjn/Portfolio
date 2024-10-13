@@ -32,22 +32,24 @@ const About = () => {
           About Me
         </h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-          I am currently pursuing my Bachelor's degree at the Maharaja Agrasen
-          Institute of Technology,
-          Delhi and will graduate in 2024. I enjoy tackling new challenges
-          and continuously expanding my skillset.
+          I recently graduated with a Bachelor's degree from the Maharaja Agrasen Institute of Technology, Delhi, in 2024.
+          I thrive on tackling new challenges and continuously expanding my skill set.
           {/* I'm a Full-Stack web developer
           with a passion for building beautiful websites and applications. I'm
           currently pursuing my Bachelor's degree at the Maharaja Agrasen
           Institute of Technology, Delhi. */}
         </p>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-          My passion for full-stack development, particularly in the{" "}
-          <span className="font-bold">MERN </span> stack, has driven me to excel
+         My passion for full-stack development drives my expertise in the {" "}
+          <span className="font-bold">MERN </span> stack
+          and  <span className="font-bold">Spring Boot </span>,
+           allowing me to create dynamic and robust web applications. 
+          In addition to my technical skills, I enjoy playing basketball and cricket, which help me maintain a balanced lifestyle.
+{/*           , has driven me to excel
           in web development. Additionally, my proficiency in languages like{" "}
           <span className="font-bold">C++</span> has further enhanced my
           technical capabilities. Alongside my academic and professional
-          pursuits, I find joy in playing Basketball and Cricket.
+          pursuits, I find joy in playing Basketball and Cricket. */}
         </p>
       </motion.section>
     </div>
