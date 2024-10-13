@@ -28,13 +28,13 @@ const Intro = () => {
         <span className="font-bold text-blue-500">Pushpak Jain</span>
         <br />
         <span className="text-xl sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
-          As a passionate{" "}
+          I'm a{" "}
           <span className="font-bold text-blue-400">Full Stack Developer</span>{" "}
-          from India, I thrive on creating innovative web solutions that captivate users. Specializing in crafting dynamic applications with  <br />
-          <span className="font-bold text-blue-400">React</span> for seamless front-end experiences and{" "}
-          <span className="font-bold text-blue-400">Node.js</span>{" "} and 
-          <span className="font-bold text-blue-400">Spring Boot</span>{" "} 
-          for robust back-end architecture, I’m excited to bring ideas to life on the web!
+          based in India. I love to build things for the web. I specialize in
+          building websites and applications using <br />
+          <span className="font-bold text-blue-400">React</span> ,{" "}
+          <span className="font-bold text-blue-400">NodeJs</span> and{" "}
+          <span className="font-bold text-blue-400">Spring Boot</span>.
         </span>
       </motion.h1>
 
