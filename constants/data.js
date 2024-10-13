@@ -57,7 +57,8 @@ export const ProjectsData = [
   {
     name: "Supash",
     description:
-  "A Fullstack E-commerce web application that enables users to browse products, add/remove items to the cart, adjust quantities, and view total prices. Firebase manages inventory and user authentication, supporting both email/password and anonymous logins. Includes a mock checkout page for simulating purchases.",
+  // "A Fullstack E-commerce web application that enables users to browse products, add/remove items to the cart, adjust quantities, and view total prices. 
+      "Firebase manages inventory and user authentication, supporting both email/password and anonymous logins. Includes a mock checkout page for simulating purchases.",
 image: Supash,
     tags: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "Firebase"],
     link: "https://supash.vercel.app/",
