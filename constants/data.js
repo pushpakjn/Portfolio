@@ -52,7 +52,7 @@ export const ProjectsData = [
       "Redis",
       "Sendgrid API"
     ],
-    link: "https://www.cphints.me/",
+    link: "https://cphint.vercel.app/",
   },
   {
     name: "Supash",
