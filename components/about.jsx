@@ -28,7 +28,7 @@ const About = () => {
         transition={{ delay: 2 }}
         ref={ref}
       >
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-50 capitalize">
+        {/* <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-50 capitalize">
           About Me
         </h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
@@ -38,19 +38,42 @@ const About = () => {
           with a passion for building beautiful websites and applications. I'm
           currently pursuing my Bachelor's degree at the Maharaja Agrasen
           Institute of Technology, Delhi. */}
-        </p>
+        {/*</p>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
          My passion for full-stack development drives my expertise in the {" "}
           <span className="font-bold">MERN </span> stack
           and  <span className="font-bold">Spring Boot </span>,
            allowing me to create dynamic and robust web applications. 
           In addition to my technical skills, I enjoy playing basketball and cricket, which help me maintain a balanced lifestyle.
-{/*           , has driven me to excel
-          in web development. Additionally, my proficiency in languages like{" "}
-          <span className="font-bold">C++</span> has further enhanced my
-          technical capabilities. Alongside my academic and professional
-          pursuits, I find joy in playing Basketball and Cricket. */}
-        </p>
+
+        </p> */}
+      <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-50 capitalize">
+  About Me
+</h2>
+
+<p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+  I’m a <span className="font-bold">Software Engineer at Tata Consultancy Services (TCS)</span>, 
+  working on the Government of India’s Passport Seva V2.0 project in the Search & Analytics domain. 
+  My role involves building and maintaining scalable backend microservices using 
+  <span className="font-bold"> Java, Spring Boot, and REST APIs</span>.
+</p>
+
+<p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+  I graduated with a <span className="font-bold">B.Tech degree</span> from 
+  Maharaja Agrasen Institute of Technology, Delhi (2024), where I developed a strong interest 
+  in <span className="font-bold">backend engineering, data systems,</span> and 
+  <span className="font-bold"> system design</span>. I also work with modern tools like the 
+  <span className="font-bold"> ELK Stack (Elasticsearch, Logstash, Kibana)</span> and 
+  <span className="font-bold"> PostgreSQL</span> to handle analytics and data processing pipelines.
+</p>
+
+<p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+  Along with backend development, I have hands-on experience with 
+  <span className="font-bold"> React.js</span> for building interactive user interfaces. 
+  Outside of coding, I enjoy playing <span className="font-bold">basketball</span> and 
+  <span className="font-bold">cricket</span>, which help me stay focused and maintain a balanced lifestyle.
+</p>
+
       </motion.section>
     </div>
   );
