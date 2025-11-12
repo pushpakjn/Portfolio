@@ -61,17 +61,17 @@ const About = () => {
 <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
   I graduated with a <span className="font-bold">B.Tech degree</span> from 
   Maharaja Agrasen Institute of Technology, Delhi (2024), where I developed a strong interest 
-  in <span className="font-bold">backend engineering, data systems,</span> and 
+  in <span className="font-bold">backend engineering, data structures,</span> and 
   <span className="font-bold"> system design</span>. I also work with modern tools like the 
   <span className="font-bold"> ELK Stack (Elasticsearch, Logstash, Kibana)</span> and 
-  <span className="font-bold"> PostgreSQL</span> to handle analytics and data processing pipelines.
+  <span className="font-bold"> SQL</span> to handle analytics and data processing pipelines.
 </p>
 
 <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
   Along with backend development, I have hands-on experience with 
   <span className="font-bold"> React.js</span> for building interactive user interfaces. 
   Outside of coding, I enjoy playing <span className="font-bold">basketball</span> and 
-  <span className="font-bold">cricket</span>, which help me stay focused and maintain a balanced lifestyle.
+  <span className="font-bold"> cricket</span>, which help me stay focused and maintain a balanced lifestyle.
 </p>
 
       </motion.section>
