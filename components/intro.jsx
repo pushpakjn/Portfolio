@@ -18,7 +18,7 @@ const Intro = () => {
       id="Home"
       ref={ref}
     >
-      <motion.h1
+      {/* <motion.h1
         className="text-2xl sm:text-4xl font-bold text-center text-gray-800 dark:text-gray-100 mb-3"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -36,7 +36,28 @@ const Intro = () => {
           <span className="font-bold text-blue-400">NodeJs</span> and{" "}
           <span className="font-bold text-blue-400">Spring Boot</span>.
         </span>
-      </motion.h1>
+      </motion.h1> */}
+
+      <motion.h1
+  className="text-2xl sm:text-4xl font-bold text-center text-gray-800 dark:text-gray-100 mb-3"
+  initial={{ y: 100, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+>
+  Hello, I'm{" "}
+  <span className="font-bold text-blue-500">Pushpak Jain</span>.
+  <br />
+  <span className="text-xl sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
+    A{" "}
+    <span className="font-bold text-blue-400">Backend-Focused Full Stack Developer</span>{" "}
+    passionate about building scalable and impactful web applications.
+    <br />
+    My core stack includes{" "}
+    <span className="font-bold text-blue-400">Java / Spring Boot</span>,{" "}
+    <span className="font-bold text-blue-400">React.js</span>, and{" "}
+    <span className="font-bold text-blue-400">REST APIs</span>.
+  </span>
+</motion.h1>
+
 
       <motion.div
         className="flex sm:flex-row flex-col gap-2 w-full justify-center text-md font-medium"
